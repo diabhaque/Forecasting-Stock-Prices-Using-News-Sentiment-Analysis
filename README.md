@@ -72,7 +72,7 @@ stocks embedding:
     - Each stock as trainable variables
 Entity tagging: https://spacy.io/api/
 
-### Traing with LSTM and Windowing
+### Training with LSTM and Windowing
 
 Concatenate Stocks Embedding vector and News Embedding Vector. Group by Asset. 
 Perform time series windowing to find the market-residualized return 10 days into the future.
