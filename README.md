@@ -1,6 +1,6 @@
-# Forecasting Stock Prices Using News Sentiment Analysis
+# Sixth Sense: Forecasting Stock Prices Using News Sentiment Analysis
 
-As the title says, in this project, I try to use Market Data on Assets and Financial News to predict the movement of stock prices into the future. 10 days into the future to be exact.
+As the description says, in this project, I try to use Market Data on Assets and Financial News to predict the movement of stock prices into the future. 10 days into the future to be exact.
 
 
 	Tools: [Python, Pandas, Numpy, Keras, Tensorflow, Plotly, SKLearn]
