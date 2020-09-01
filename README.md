@@ -1,6 +1,10 @@
 # Sixth Sense: Pairs Trading with Kalman Filters
 
+To be updated once fully implemented, backtested and paper traded
+
 # Sixth Sense: Long Short Equity Strategy with AdaBoost
+
+To be updated once fully implemented, backtested and paper traded
 
 # Sixth Sense: Forecasting Stock Prices Using News Sentiment Analysis
 
@@ -50,9 +54,9 @@ Some of these features were further normalized with Scalers from SKLearn.
 
 As I worked on this, I maintained a two rules.
 
- 1. **Avoid overfitting:** Financial data can easily be overfit, so my goal was to fit simpler models. Initially, I considered using non ML models like ARIMA or Holt-Winter's, but I went with a simple neural network with a high dropout probabilty (0.5) instead. This would also allow me to insert additional information from the news.
+ 1. **Avoid overfitting:** Financial data can easily be overfit, so my goal was to fit simpler models. I went with a simple neural network with a high dropout probabilty (0.5). This would also allow me to insert additional information from the news.
 
- 2. **Use recent data only:** The markets are structurally unstable, so one should only operate on recent data. Thus, I only used data from 2015 onwards. (This was thanks to my mentor. He also said that I should drop the news altogether, but that would be less interesting/challenging.) 
+ 2. **Use recent data only:** The markets are structurally unstable, so one should only operate on recent data. Thus, I only used data from 2015 onwards. 
 
 
 ## Future Work
