@@ -60,7 +60,7 @@ In the future, I would like to do the following research to improve this model.
 BERT: https://arxiv.org/abs/1810.04805
 
 Instead of using the news features in the given dataframe, embedding all the features in a row to 1 vector.
-Therefore: news_df = {Time : Asset/s Involved : Feature Vector}
+Therefore: news_df = {Time : [], Asset/s Involved : [], Feature Vector: []}
 
 word/document embeddings: word2vec, fasttext, NNLM - google news, universal sentence encoder
 attention mechanism: Using stock similarity embeddings and news objects column to form attention-key pairs
